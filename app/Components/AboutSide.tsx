@@ -2,7 +2,7 @@ import React from 'react'
 
 export const AboutSide = () => {
   return (
-    <div className="flex flex-col w-1/2   h-full justify-start items-start sm:w-full">
+    <div className="flex flex-col w-1/2   h-full justify-start items-start sm:w-[95%] sm:pl-10 ">
       <h3 className="text-gray-400 lg:pt-10  sm:pt-3">
         "My software development journey began with a foundational understanding of{' '}
         <strong className="text-gray-300">HTML and CSS,</strong>

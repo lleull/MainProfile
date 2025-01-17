@@ -26,6 +26,9 @@
   font-family: 'titibold';
   src: url('/font/titibold') format('ttf');
 }
+.hidden {
+  display: none;
+}
 
 body {
   background: linear-gradient(120deg,rgb(20, 24, 43),  rgb(11, 11, 24) );

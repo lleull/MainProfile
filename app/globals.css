@@ -13,6 +13,18 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: 'jersey';
+  src: url('/font/jersey') format('ttf');
+}
+@font-face {
+  font-family: 'titi';
+  src: url('/font/titil') format('ttf');
+}
+@font-face {
+  font-family: 'titibold';
+  src: url('/font/titibold') format('ttf');
+}
 
 body {
   color: var(--foreground);

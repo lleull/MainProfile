@@ -15,7 +15,8 @@
 }
 @font-face {
   font-family: 'jersey';
-  src: url('/font/jersey') format('ttf');
+  src: url('/font/jersey1') format('ttf');
+  font-weight: 800;
 }
 @font-face {
   font-family: 'titi';
@@ -27,7 +28,13 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background: linear-gradient(120deg,rgb(20, 24, 43),  rgb(11, 11, 24) );
   font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: 'white';
 }

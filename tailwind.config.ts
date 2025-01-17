@@ -15,7 +15,7 @@ export default {
     },
 
     fontFamily: {
-      Jersey_10: ['jersey'],
+      Jersey: ['jersey'],
       titi: ['titi'],
       titibold: ['titibold'], // Add your custom font
     },

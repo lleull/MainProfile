@@ -57,7 +57,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <AboutSide />
+       {selectedOptions === "About" && <AboutSide/>} 
       </div>
     </div>
   )

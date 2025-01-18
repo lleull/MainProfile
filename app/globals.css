@@ -41,3 +41,35 @@ h4,
 h5 {
   color: 'white';
 }
+
+
+.arrow{
+  width: 60px; 
+  height: 60px;
+  color: white;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: infinite 3s ease-in-out arrowbounce;
+  cursor: pointer;
+
+}
+.arrow:hover{
+  background: rgb(180, 134, 134);
+
+  cursor: pointer;
+}
+
+@keyframes arrowbounce {
+  0%{
+    transform:scale(50%);
+  }50%{
+    transform: scale(70%);
+  }
+  100%{
+    transform: scale(50%);
+  }
+  
+}

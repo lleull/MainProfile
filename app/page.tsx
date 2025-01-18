@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { AboutSide } from './Components/AboutSide'
+import ContactSide from './Components/ContactSide'
 export default function Home() {
   const [selectedOptions, setselectedOptions] = useState('About')
   return (
@@ -58,19 +59,6 @@ export default function Home() {
                 }h-[1px] bg-gray-600`}
               />
               Projects
-            </h1>
-            <h1
-              onClick={() => setselectedOptions('Contacts')}
-              className={`flex flex-row items-center gap-3 hover:cursor-pointer ${
-                selectedOptions === 'Contacts' ? 'text-white' : 'text-gray-500'
-              } `}
-            >
-              <div
-                className={` ${
-                  selectedOptions === 'Contacts' ? 'w-32 h-[1px] bg-white' : 'w-16 '
-                }h-[1px] bg-gray-600`}
-              />
-              Contacts
             </h1>
           </div>
         </div>

@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { AboutSide } from './Components/AboutSide'
 import ProjectSide from './Components/ProjectsSide'
+import Exprience from './Components/Exprience'
 export default function Home() {
   const [selectedOptions, setselectedOptions] = useState('About')
   return (
@@ -65,6 +66,9 @@ export default function Home() {
         <div className="lg:flex md:flex md:w-1/2  sm:hidden lg:w-1/2 relative ">
           {selectedOptions === 'About' && <AboutSide />}
           {selectedOptions === 'Projects' && <ProjectSide />}
+          {selectedOptions === 'Expriences' && <Exprience />}
+
+          
         </div>
         <div className="lg:hidden sm:flex md:hidden">
           <AboutSide />

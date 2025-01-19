@@ -67,10 +67,9 @@ export default function Home() {
           {selectedOptions === 'About' && <AboutSide />}
           {selectedOptions === 'Projects' && <ProjectSide />}
           {selectedOptions === 'Expriences' && <Exprience />}
-
-          
         </div>
-        <div className="lg:hidden sm:flex md:hidden">
+        <div className="lg:hidden sm:flex md:hidden sm:flex-col">
+          <Exprience />
           <AboutSide />
         </div>
       </div>

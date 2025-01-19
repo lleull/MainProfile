@@ -70,11 +70,17 @@ h5 {
     transform: scale(50%);
   }
 }
-.bounceimg{
-  width: 50px;
-  height: 50px;
+.bounceimg {
+  width: 80px;
+  height: 80px;
   animation: infinite 6s ease-in-out imgbounce;
   cursor: pointer;
+
+  @media (width < 450px) {
+    height: 120px;
+    width: 120px;
+    
+  }
 }
 @keyframes imgbounce {
   0% {
@@ -86,4 +92,23 @@ h5 {
   100% {
     transform: scale(50%);
   }
+}
+
+.headText {
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(120deg, rgb(149, 155, 161), rgb(56, 47, 102), white);
+  font-weight: 500;
+  margin-bottom: 20px;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+
+  @media (width < 450px) {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  
+    
+  }
+
 }

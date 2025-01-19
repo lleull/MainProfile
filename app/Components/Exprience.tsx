@@ -2,7 +2,10 @@ import React from 'react'
 
 const Exprience = () => {
   return (
-    <div>Exprience</div>
+    <div className='h-full w-full items-center flex justify-center'>
+      
+
+    </div>
   )
 }
 

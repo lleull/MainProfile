@@ -70,3 +70,20 @@ h5 {
     transform: scale(50%);
   }
 }
+.bounceimg{
+  width: 50px;
+  height: 50px;
+  animation: infinite 6s ease-in-out imgbounce;
+  cursor: pointer;
+}
+@keyframes imgbounce {
+  0% {
+    transform: scale(50%);
+  }
+  50% {
+    transform: scale(70%);
+  }
+  100% {
+    transform: scale(50%);
+  }
+}

@@ -4,7 +4,7 @@ import { AboutSide } from './Components/AboutSide'
 import ProjectSide from './Components/ProjectsSide'
 import Exprience from './Components/Exprience'
 export default function Home() {
-  const [selectedOptions, setselectedOptions] = useState('About')
+  const [selectedOptions, setselectedOptions] = useState('Projects')
   return (
     <div className="w-full lg:h-[100vh] bg-transparent flex items-center justify-center ">
       <div className="lg:w-[80%] h-[80%] flex lg:flex-row items-center justify-between sm:flex-col md:flex-row md:w-[95%] md:pt-20 lg:pt-1  ">

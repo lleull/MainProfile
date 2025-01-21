@@ -17,10 +17,10 @@ const ProjectSide = () => {
       {ProjectsData.map((data, i) => {
         return data.id == countArray ? (
           <div  key={i}>
-            <h3 className="text-gray-400 lg:pt-10  sm:pt-3">
-              <div className="flex flex-row items-center gap-2">
-                <h1 className="text-[90px] text-red-900 font-titibold">{data.id}</h1>
-                <h1 className="text-[90px] text-white">{data.name}</h1>
+            <h3 className="text-gray-400 lg:pt-10 text-center  sm:pt-3">
+              <div className="flex flex-row items-center gap-2 w-full justify-center">
+                <h1 className="text-[40px] text-red-900 font-titibold">{data.id}</h1>
+                <h1 className="text-[50px] text-white">{data.name}</h1>
               </div>
               {data.desc}
             </h3>

@@ -71,6 +71,10 @@ export default function Home() {
         <div className="lg:hidden sm:flex md:hidden sm:flex-col">
           <Exprience />
           <AboutSide />
+          <div className='w-full  bg-white pt-5 pb-5 mt-10'>
+            <h2 className='text-black font-titi text-center w-full  text-2xl'>Projects</h2>
+          </div>
+          <ProjectSide/>
         </div>
       </div>
     </div>

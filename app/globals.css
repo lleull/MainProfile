@@ -53,11 +53,19 @@ h5 {
   right: 0;
   animation: infinite 3s ease-in-out arrowbounce;
   cursor: pointer;
+
+  @media (width < 420px) {
+    position: relative; 
+    align-self: flex-end;
+    
+  }
 }
 .arrow:hover {
   background: rgb(180, 134, 134);
   cursor: pointer;
 }
+
+
 
 @keyframes arrowbounce {
   0% {

@@ -13,7 +13,7 @@ const ProjectSide = () => {
     }
   }
   return (
-    <div className="flex flex-col w-1/2 mb-20  h-full justify-start items-start sm:w-[95%] sm:pl-10 ">
+    <div className="flex flex-col w-1/2 mb-20  h-full justify-start items-start sm:w-[95%] sm:pl-10 sm:flex-col ">
       {ProjectsData.map((data, i) => {
         return data.id == countArray ? (
           <div  key={i}>
